@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e24095a-27ba-4b86-8c79-c6a0bbbe3b56" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/Layer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParamOperation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WeightsMultiply.py" afterDir="false" />
+    <list default="true" id="1e24095a-27ba-4b86-8c79-c6a0bbbe3b56" name="Changes" comment="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py">
+      <change afterPath="$PROJECT_DIR$/Dense.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operations/bias_add.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operations/param_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operations/sigmoid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Operations/weight_multiply.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/layer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParamOperation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeightsMultiply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,21 +32,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BlackPymer"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BlackPymer&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BlackPymer/python_neuralink",
-    "accountId": "b9baeba4-2ee4-4ce6-a789-c01b0d217bd4"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BlackPymer/python_neuralink&quot;,
+    &quot;accountId&quot;: &quot;b9baeba4-2ee4-4ce6-a789-c01b0d217bd4&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2u30z9yEGETgbRmij4E9tFSWGKX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -49,13 +55,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\PythonNeuralink\Operations" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonNeuralink" />
@@ -109,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741462405131</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py">
+      <option name="closed" value="true" />
+      <created>1741465139368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741465139368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +144,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py" />
   </component>
 </project>
