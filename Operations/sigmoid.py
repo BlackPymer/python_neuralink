@@ -1,6 +1,6 @@
 from numpy import ndarray
 import numpy as np
-from operation import Operation
+from Operations.operation import Operation
 
 
 class Sigmoid(Operation):

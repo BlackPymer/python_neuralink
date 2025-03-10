@@ -2,7 +2,7 @@ from Operations.bias_add import BiasAdd
 from Operations.operation import Operation
 from Operations.sigmoid import Sigmoid
 from Operations.weight_multiply import WeightMultiply
-from layer import Layer
+from Layers.layer import Layer
 import numpy as np
 from numpy import ndarray
 
@@ -29,7 +29,7 @@ class Dense(Layer):
         self.params = []
 
         # weights
-        self.param.append(np.random.randn(_input.shape[1],self.neurons))
+        self.params.append(np.random.randn(_input.shape[1],self.neurons))
 
         #bias
         self.params.append(np.random.randn(1,self.neurons))

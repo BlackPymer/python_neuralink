@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e24095a-27ba-4b86-8c79-c6a0bbbe3b56" name="Changes" comment="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py">
-      <change afterPath="$PROJECT_DIR$/Dense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Operations/bias_add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Operations/param_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Operations/sigmoid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Operations/weight_multiply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loss/loss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loss/mean_squared_error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neural_network.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/layer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ParamOperation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeightsMultiply.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dense.py" beforeDir="false" afterPath="$PROJECT_DIR$/Layers/dense.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operations/param_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/param_operation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operations/sigmoid.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/sigmoid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operations/weight_multiply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/weight_multiply.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Layers/layer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -58,12 +62,13 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "develop",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProjects\PythonNeuralink\Layers" />
       <recent name="D:\MyProjects\PythonNeuralink\Operations" />
     </key>
   </component>

@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import ndarray
 
-from operation import Operation
+from Operations.operation import Operation
 
 
 class ParamOperation(Operation):

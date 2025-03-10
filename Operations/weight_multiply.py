@@ -1,6 +1,6 @@
 import numpy as np
 from numpy import ndarray
-from param_operation import ParamOperation
+from Operations.param_operation import ParamOperation
 
 
 class WeightMultiply(ParamOperation):
