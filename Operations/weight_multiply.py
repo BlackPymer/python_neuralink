@@ -24,7 +24,6 @@ class WeightMultiply(ParamOperation):
         calculating output gradient
         """
         assert output_grad.shape[1] == self.param.T.shape[0]
-        print(f"input grad: {np.dot(output_grad, self.param.T)}")
         return np.dot(output_grad, self.param.T)
 
     def _param_grad(self, output_grad: ndarray) -> ndarray:

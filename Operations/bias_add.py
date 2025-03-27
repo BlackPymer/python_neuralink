@@ -17,10 +17,21 @@ class BiasAdd(ParamOperation):
 
     def _output(self) -> ndarray:
         """
-        :return: input matrix + bias matrix
+        Returns the result of adding bias to _input.
+        If bias is a 1D array, reshapes it to (1, n_units) for broadcasting.
         """
-        assert self._input.shape == self.param.shape
-        return self._input + self.param
+        # Ensure bias is a 2D row vector
+        if self.param.ndim == 1:
+            bias = self.param.reshape(1, -1)
+        else:
+            bias = self.param
+
+        # Better assertion: ensure the number of features matches
+        assert self._input.shape[1] == bias.shape[1], (
+            f"Input has {self._input.shape[1]} features but bias has {bias.shape[1]}"
+        )
+
+        return self._input + bias
 
     def _input_grad(self, output_grad: ndarray) -> ndarray:
         """

@@ -13,7 +13,7 @@ class MeanSquaredError(Loss):
         calculating loss (y-p)^2
         :return: loss
         """
-        loss = np.sum(np.pow(self.target - self.prediction, 2))
+        loss = np.sum(np.power(self.target - self.prediction, 2))
         return loss
 
     def _input_grad(self) -> ndarray:
@@ -21,4 +21,5 @@ class MeanSquaredError(Loss):
         calculating _output derivative
         :return: gradient
         """
-        return 2 * (self.target - self.prediction) / self.prediction.shape[0]
+        return 2 * (self.prediction - self.target) / self.prediction.shape[0]
+

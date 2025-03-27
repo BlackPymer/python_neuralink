@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e24095a-27ba-4b86-8c79-c6a0bbbe3b56" name="Changes" comment="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py">
-      <change afterPath="$PROJECT_DIR$/Loss/loss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Loss/mean_squared_error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network.py" afterDir="false" />
+    <list default="true" id="1e24095a-27ba-4b86-8c79-c6a0bbbe3b56" name="Changes" comment="dsfd">
+      <change afterPath="$PROJECT_DIR$/Optimizers/optimizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Optimizers/stochastic_gradient_descent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper_functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonNeuralink.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonNeuralink.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dense.py" beforeDir="false" afterPath="$PROJECT_DIR$/Layers/dense.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Operations/param_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/param_operation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Operations/sigmoid.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/sigmoid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loss/mean_squared_error.py" beforeDir="false" afterPath="$PROJECT_DIR$/Loss/mean_squared_error.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Operations/bias_add.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/bias_add.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Operations/weight_multiply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Operations/weight_multiply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layer.py" beforeDir="false" afterPath="$PROJECT_DIR$/Layers/layer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +69,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Optimizers" />
       <recent name="D:\MyProjects\PythonNeuralink\Layers" />
       <recent name="D:\MyProjects\PythonNeuralink\Operations" />
     </key>
@@ -150,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py" />
+    <MESSAGE value="dsfd" />
+    <option name="LAST_COMMIT_MESSAGE" value="dsfd" />
   </component>
 </project>

@@ -70,7 +70,7 @@ class NeuralNetwork(object):
         :return: neuralink parameters
         """
         for layer in self.layers:
-            yield from layer.param
+            yield from layer.params
 
     def param_grads(self):
         """
