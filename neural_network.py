@@ -14,7 +14,7 @@ class NeuralNetwork(object):
         :param layers: layers of the NN
         :param loss: Loss of the NN
         :param seed: seed of random generating
-        :param learning_rate: speed of training neurolink (experimentally 0.01 is the best value)
+        :param learning_rate: speed of training neural network (experimentally 0.01 is the best value)
         """
         self.learning_rate = learning_rate
         self.layers = layers
