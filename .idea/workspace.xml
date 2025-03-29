@@ -4,184 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="1e24095a-27ba-4b86-8c79-c6a0bbbe3b56" name="Changes" comment="Created train.py. Started creating saving">
-      <change afterPath="$PROJECT_DIR$/samples/cmyk_to_rgb_convertor/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samples/cmyk_to_rgb_convertor/test.py" afterDir="false" />
+    <list default="true" id="86ee7b10-d032-4e32-81d3-3f29e103f5a8" name="Changes" comment="Created README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/cmyk_to_rgb_convertor/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/cmyk_to_rgb_convertor/train.py" afterDir="false" />
-
+      <change beforePath="$PROJECT_DIR$/samples/cmyk_to_rgb_convertor/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/samples/cmyk_to_rgb_convertor/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-
-        <entry key="$PROJECT_DIR$" value="develop" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BlackPymer&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/BlackPymer/python_neuralink/&quot;,
-    &quot;accountId&quot;: &quot;cf7755ee-d22d-4816-b14c-c03c09387306&quot;
-  }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2u30z9yEGETgbRmij4E9tFSWGKX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.neural_network.executor": "Run",
     "Python.test.executor": "Run",
     "Python.train.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "sample/cmyk__to__rgb",
-    "settings.editor.selected.configurable": "preferences.keymap"
-
+    "git-widget-placeholder": "develop"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Optimizers" />
-      <recent name="D:\MyProjects\PythonNeuralink\Layers" />
-      <recent name="D:\MyProjects\PythonNeuralink\Operations" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonNeuralink" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.main" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-python-sdk-4f4e415b4190-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.26053.29" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="1e24095a-27ba-4b86-8c79-c6a0bbbe3b56" name="Changes" comment="" />
-      <created>1741462210662</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1741462210662</updated>
-    </task>
-    <task id="LOCAL-00001" summary="first commit">
-      <option name="closed" value="true" />
-      <created>1741462405131</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1741462405131</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py">
-      <option name="closed" value="true" />
-      <created>1741465139368</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1741465139368</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Finished creating Neural Network">
-      <option name="closed" value="true" />
-      <created>1743093261383</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1743093261383</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Finished creating Neural Network">
-      <option name="closed" value="true" />
-      <created>1743099221602</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1743099221602</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Created train.py. Started creating saving">
-      <option name="closed" value="true" />
-      <created>1743102918629</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1743102918629</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
-
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <MESSAGE value="Added Operation.py and ParamOperation.py. Started adding WeightsMultiply.py" />
-    <MESSAGE value="dsfd" />
-    <MESSAGE value="Finished creating Neural Network" />
-    <MESSAGE value="Created train.py. Started creating saving" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created train.py. Started creating saving" />
-
+    <MESSAGE value="Created README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created README.md" />
   </component>
 </project>
